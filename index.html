@@ -4,177 +4,60 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alangara Devi S | Portfolio</title>
-
-<style>
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f4f4;
-    color:#333;
-}
-
-header{
-    background:linear-gradient(135deg,#0d6efd,#00b4ff);
-    color:white;
-    text-align:center;
-    padding:40px;
-}
-
-.profile-pic{
-    width:170px;
-    height:170px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid white;
-    box-shadow:0 8px 20px rgba(0,0,0,.3);
-    margin-bottom:15px;
-}
-
-section{
-    width:80%;
-    margin:25px auto;
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
-
-h2{
-    color:#0d6efd;
-}
-
-ul{
-    line-height:30px;
-}
-
-.btn{
-    display:inline-block;
-    margin:10px;
-    padding:12px 25px;
-    background:#0d6efd;
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    transition:.3s;
-    font-weight:bold;
-}
-
-.btn:hover{
-    background:#084298;
-}
-
-footer{
-    background:#0d6efd;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
-}
-</style>
-
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<nav>
+  <div class="logo">Alangara Devi S</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-<header>
-
-<img src="Devi.jpeg" alt="Profile Photo" class="profile-pic">
-
+<header class="hero">
+<img src="Devi.jpeg" class="profile">
 <h1>Alangara Devi S</h1>
-
-<p>M.Sc Computer Science | Python Developer | AI Enthusiast</p>
-
-<a class="btn" href="Devi_Resume.pdf" download>
-📄 Download Resume
-</a>
-
+<p id="typing"></p>
+<a class="btn" href="Devi_Resume.pdf" download>Download Resume</a>
+<a class="btn" href="https://github.com/Devishankar23" target="_blank">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/alangara-devi" target="_blank">LinkedIn</a>
 </header>
 
-<section>
-
-<h2>About Me</h2>
-
-<p>
-I am a fresher with an M.Sc in Computer Science. I am passionate about Python Development, Artificial Intelligence, Machine Learning and Web Development. I am looking for an opportunity to start my career in the IT industry where I can enhance my technical skills and contribute to organizational growth.
-</p>
-
+<section id="about"><h2>About Me</h2>
+<p>I am an M.Sc Computer Science graduate passionate about Python, AI, Machine Learning and Web Development.</p>
 </section>
 
-<section>
-
-<h2>Education</h2>
-
-<ul>
-<li>M.Sc Computer Science</li>
-<li>B.Sc Computer Science</li>
-</ul>
-
+<section id="education"><h2>Education</h2>
+<div class="card"><h3>M.Sc Computer Science</h3><p>Bharathiar University</p></div>
+<div class="card"><h3>B.Sc Computer Science</h3><p>KR College of Arts and Science</p></div>
 </section>
 
-<section>
-
-<h2>Technical Skills</h2>
-
-<ul>
-<li>Python</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript (Basic)</li>
-<li>MySQL</li>
-<li>MongoDB</li>
-<li>Streamlit</li>
-<li>OpenCV</li>
-<li>DeepFace</li>
-<li>Git & GitHub</li>
-</ul>
-
+<section id="skills"><h2>Skills</h2>
+<div class="card-grid">
+<div class="card">Python</div><div class="card">HTML</div><div class="card">CSS</div>
+<div class="card">JavaScript</div><div class="card">MySQL</div><div class="card">MongoDB</div>
+<div class="card">Git & GitHub</div><div class="card">Streamlit</div>
+</div>
 </section>
 
-<section>
-
-<h2>Projects</h2>
-
+<section id="projects"><h2>Project</h2>
+<div class="card">
 <h3>Multimodal AI Assistant</h3>
-
-<p>
-Developed a Multimodal AI Assistant using Python, Streamlit, OpenCV, DeepFace and Google Gemini API. The application supports Text, Voice, Image and Video analysis with Human Identity Detection and AI-powered responses.
-</p>
-
+<p>AI Assistant using Python, Streamlit, OpenCV, DeepFace and Gemini API.</p>
+</div>
 </section>
 
-<section>
-
+<section id="contact">
 <h2>Contact</h2>
-
-<p><strong>Email:</strong> dvi70905@gmail.com</p>
-
-<p>
-<strong>GitHub:</strong><br>
-<a href="https://github.com/Devishankar23" target="_blank">
-https://github.com/Devishankar23
-</a>
-</p>
-
-<p>
-<strong>LinkedIn:</strong><br>
-<a href="#" target="_blank">
-Add Your LinkedIn Profile Here
-</a>
-</p>
-
+<p>Phone: 9894523894</p>
+<p>Email: dvi70905@gmail.com</p>
 </section>
 
-<footer>
-
-<p>© 2026 Alangara Devi S | All Rights Reserved</p>
-
-<p>Designed with ❤️ using HTML & CSS</p>
-
-</footer>
-
+<footer>© 2026 Alangara Devi S</footer>
+<script src="script.js"></script>
 </body>
 </html>
